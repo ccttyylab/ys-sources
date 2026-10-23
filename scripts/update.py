@@ -5,7 +5,8 @@
 =================================
 功能：
   1. 读取 config/sources.json 中的配置源列表
-  2. 对每个源依次尝试"主线 + 备用"多个地址，自动做中文域名 punycode 转换
+  2. 对每个源依次尝试"主线 + 备用"多个地址，自动做中文域名 punycode 转换；
+     成功后把可用地址调到首位、本次失败的备用地址移到末尾，并写回 config/sources.json
   3. 校验返回内容是否为合法的 TVBox/影视仓 单仓配置（包含 sites/spiders/lives 等字段）
      或 多仓订阅（顶层含 urls 数组）
   4. 将每个源的最新配置保存到 output/<id>.json
@@ -164,6 +165,16 @@ def _fetch_once(target: str, user_agent: str) -> dict:
     raise last_err
 
 
+def reorder_urls_on_success(urls: list, success_index: int) -> list:
+    """成功地址置顶，本次尝试中失败的地址按原顺序移到末尾。"""
+    if success_index <= 0 or success_index >= len(urls):
+        return list(urls)
+    winner = urls[success_index]
+    failed = urls[:success_index]
+    rest = urls[success_index + 1 :]
+    return [winner] + rest + failed
+
+
 def fetch_config(url: str) -> dict:
     """抓取单个地址并解析为 JSON dict；失败时抛出异常。
 
@@ -301,6 +312,7 @@ def main() -> int:
     subscriptions = []
 
     ok_count = 0
+    config_urls_changed = False
     for src in cfg.get("sources", []):
         name = src.get("name", "未知")
         sid = src.get("id", name)
@@ -309,7 +321,8 @@ def main() -> int:
         entry = {"id": sid, "name": name, "ok": False, "used_url": None, "error": None}
         saved = False
 
-        for url in urls:
+        success_index = None
+        for idx, url in enumerate(urls):
             try:
                 data = fetch_config(url)
                 out_path = os.path.join(OUTPUT_DIR, f"{sid}.json")
@@ -323,6 +336,7 @@ def main() -> int:
                 )
                 ok_count += 1
                 saved = True
+                success_index = idx
                 print(f"[OK]   {name} <- {url}")
                 break
             except Exception as e:  # noqa: BLE001
@@ -354,10 +368,24 @@ def main() -> int:
             if not saved:
                 entry["error"] = entry["error"] or "所有地址均失败"
                 print(f"[FAIL] {name}  全部地址失败")
+
+        if success_index is not None:
+            new_urls = reorder_urls_on_success(urls, success_index)
+            if new_urls != urls:
+                src["urls"] = new_urls
+                config_urls_changed = True
+                print(f"[REORDER] {name} 首选 -> {new_urls[0]}")
+
         status["sources"].append(entry)
 
         # 源之间稍作间隔，避免集中请求被限流
         time.sleep(SOURCE_INTERVAL)
+
+    if config_urls_changed:
+        with open(CONFIG_FILE, "w", encoding="utf-8") as f:
+            json.dump(cfg, f, ensure_ascii=False, indent=2)
+            f.write("\n")
+        print("已写回 config/sources.json（备用地址顺序已调整）")
 
     # 生成多仓订阅文件（影视仓"订阅/多仓"格式）
     sub_path = os.path.join(OUTPUT_DIR, "多仓订阅.json")
