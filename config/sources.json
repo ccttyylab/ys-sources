@@ -1,0 +1,136 @@
+{
+  "description": "影视仓 / TVBox 配置源列表（2026-10 更新）：替换失效域名，保留肥猫、饭太硬、王二小、老刘备、小马、讴歌、4K小盒子、小盒子单仓、拾光多仓、挺好分享多仓、盒子迷、科技长青、香雅情、荐片平台、俊哥、摸鱼、菜妮丝等公开接口",
+  "update_interval_hours": 12,
+  "sources": [
+    {
+      "id": "feimao",
+      "name": "🚀肥猫线路",
+      "urls": [
+        "http://肥猫.net/tv",
+        "http://肥猫.net/",
+        "http://肥猫.com/",
+        "https://6296.kstore.vip/facat.json"
+      ]
+    },
+    {
+      "id": "fantaiying",
+      "name": "🚀饭太硬（镜像）",
+      "urls": [
+        "http://xhztv.top/dc/饭太硬/api.json",
+        "http://www.饭太硬.net/tv",
+        "http://www.饭太硬.cc/tv",
+        "http://www.饭太硬.xyz/tv"
+      ]
+    },
+    {
+      "id": "wangerxiao",
+      "name": "🚀王二小放牛娃",
+      "urls": [
+        "https://d.kstore.dev/download/9280/wex.json",
+        "https://9280.kstore.vip/newwex.json",
+        "http://new.王二小放牛娃.top"
+      ]
+    },
+    {
+      "id": "laoliubei",
+      "name": "🚀老刘备",
+      "urls": [
+        "https://raw.liucn.cc/box/m.json",
+        "https://ghfast.top/https://raw.githubusercontent.com/liu673cn/box/main/m.json"
+      ]
+    },
+    {
+      "id": "xiaoma",
+      "name": "🚀小马",
+      "urls": [
+        "https://szyyds.cn/tv/x.json"
+      ]
+    },
+    {
+      "id": "ouge",
+      "name": "🚀欧歌",
+      "urls": [
+        "http://tv.nxog.top/m/",
+        "https://欧歌.v.nxog.top/m/"
+      ]
+    },
+    {
+      "id": "4k",
+      "name": "🚀小盒子4K",
+      "urls": [
+        "http://xhztv.top/4k.json",
+        "http://xhztv.top/xhz"
+      ]
+    },
+    {
+      "id": "xiaohezi",
+      "name": "🚀小盒子",
+      "urls": [
+        "http://xhztv.top/xhz"
+      ]
+    },
+    {
+      "id": "shiguang",
+      "name": "🚀拾光多仓",
+      "urls": [
+        "http://xmbjm.fh4u.org/dc.txt"
+      ]
+    },
+    {
+      "id": "tinghao",
+      "name": "🚀挺好分享多仓",
+      "urls": [
+        "http://ztha.top/TVBox/GYCK.json"
+      ]
+    },
+    {
+      "id": "hezimii",
+      "name": "🚀盒子迷",
+      "urls": [
+        "https://盒子迷.top/禁止贩卖"
+      ]
+    },
+    {
+      "id": "kejichangqing",
+      "name": "🚀科技长青",
+      "urls": [
+        "https://13413.kstore.vip/tv/changqing.json"
+      ]
+    },
+    {
+      "id": "xiangyaqing",
+      "name": "🚀香雅情线路",
+      "urls": [
+        "https://ghfast.top/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json"
+      ]
+    },
+    {
+      "id": "jianpian",
+      "name": "🚀荐片平台",
+      "urls": [
+        "https://tv.203511.xyz/0821.json"
+      ]
+    },
+    {
+      "id": "junge",
+      "name": "🚀俊哥",
+      "urls": [
+        "http://home.jundie.top:81/top98.json"
+      ]
+    },
+    {
+      "id": "moyu",
+      "name": "🚀摸鱼儿",
+      "urls": [
+        "https://6800.kstore.vip/fish.json"
+      ]
+    },
+    {
+      "id": "cainisi",
+      "name": "🚀菜妮丝",
+      "urls": [
+        "https://tv.菜妮丝.top"
+      ]
+    }
+  ]
+}

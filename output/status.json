@@ -1,0 +1,126 @@
+{
+  "updated_at": "2026-10-23 16:35:11",
+  "repo": "ccttyylab/ys-sources",
+  "sources": [
+    {
+      "id": "feimao",
+      "name": "🚀肥猫线路",
+      "ok": true,
+      "used_url": "http://肥猫.net/tv",
+      "error": null
+    },
+    {
+      "id": "fantaiying",
+      "name": "🚀饭太硬（镜像）",
+      "ok": true,
+      "used_url": "http://xhztv.top/dc/饭太硬/api.json",
+      "error": null
+    },
+    {
+      "id": "wangerxiao",
+      "name": "🚀王二小放牛娃",
+      "ok": true,
+      "used_url": "https://d.kstore.dev/download/9280/wex.json",
+      "error": null
+    },
+    {
+      "id": "laoliubei",
+      "name": "🚀老刘备",
+      "ok": true,
+      "used_url": "https://raw.liucn.cc/box/m.json",
+      "error": null
+    },
+    {
+      "id": "xiaoma",
+      "name": "🚀小马",
+      "ok": true,
+      "used_url": "https://szyyds.cn/tv/x.json",
+      "error": null
+    },
+    {
+      "id": "ouge",
+      "name": "🚀欧歌",
+      "ok": true,
+      "used_url": "(缓存)",
+      "error": "UA=Mozilla/5.0: HTTPSConnectionPool(host='xn--dkw0c.v.nxog.top', port=443): Max retries exceeded with url: /m/ (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1000)')))；UA=okhttp/3.12.0: HTTPSConnectionPool(host='xn--dkw0c.v.nxog.top', port=443): Max retries exceeded with url: /m/ (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1000)')))",
+      "cached": true
+    },
+    {
+      "id": "4k",
+      "name": "🚀小盒子4K",
+      "ok": true,
+      "used_url": "http://xhztv.top/4k.json",
+      "error": null
+    },
+    {
+      "id": "xiaohezi",
+      "name": "🚀小盒子",
+      "ok": true,
+      "used_url": "http://xhztv.top/xhz",
+      "error": null
+    },
+    {
+      "id": "shiguang",
+      "name": "🚀拾光多仓",
+      "ok": true,
+      "used_url": "http://xmbjm.fh4u.org/dc.txt",
+      "error": null
+    },
+    {
+      "id": "tinghao",
+      "name": "🚀挺好分享多仓",
+      "ok": true,
+      "used_url": "http://ztha.top/TVBox/GYCK.json",
+      "error": null
+    },
+    {
+      "id": "hezimii",
+      "name": "🚀盒子迷",
+      "ok": true,
+      "used_url": "https://盒子迷.top/禁止贩卖",
+      "error": null
+    },
+    {
+      "id": "kejichangqing",
+      "name": "🚀科技长青",
+      "ok": true,
+      "used_url": "https://13413.kstore.vip/tv/changqing.json",
+      "error": null
+    },
+    {
+      "id": "xiangyaqing",
+      "name": "🚀香雅情线路",
+      "ok": true,
+      "used_url": "https://ghfast.top/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
+      "error": null
+    },
+    {
+      "id": "jianpian",
+      "name": "🚀荐片平台",
+      "ok": true,
+      "used_url": "https://tv.203511.xyz/0821.json",
+      "error": null
+    },
+    {
+      "id": "junge",
+      "name": "🚀俊哥",
+      "ok": true,
+      "used_url": "http://home.jundie.top:81/top98.json",
+      "error": null
+    },
+    {
+      "id": "moyu",
+      "name": "🚀摸鱼儿",
+      "ok": true,
+      "used_url": "https://6800.kstore.vip/fish.json",
+      "error": null
+    },
+    {
+      "id": "cainisi",
+      "name": "🚀菜妮丝",
+      "ok": true,
+      "used_url": "https://tv.菜妮丝.top",
+      "error": null
+    }
+  ]
+}
