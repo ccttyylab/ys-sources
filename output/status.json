@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27 15:21:59",
+  "updated_at": "2026-10-28 03:15:28",
   "repo": "ccttyylab/ys-sources",
   "sources": [
     {
@@ -105,9 +105,8 @@
       "id": "junge",
       "name": "🚀俊哥",
       "ok": true,
-      "used_url": "(缓存)",
-      "error": "UA=Mozilla/5.0: HTTPConnectionPool(host='home.jundie.top', port=81): Max retries exceeded with url: /top98.json (Caused by ConnectTimeoutError(<HTTPConnection(host='home.jundie.top', port=81) at 0x7f391b46ead0>, 'Connection to home.jundie.top timed out. (connect timeout=15)'))；UA=okhttp/3.12.0: HTTPConnectionPool(host='home.jundie.top', port=81): Max retries exceeded with url: /top98.json (Caused by ConnectTimeoutError(<HTTPConnection(host='home.jundie.top', port=81) at 0x7f391b493b90>, 'Connection to home.jundie.top timed out. (connect timeout=15)'))",
-      "cached": true
+      "used_url": "http://home.jundie.top:81/top98.json",
+      "error": null
     },
     {
       "id": "moyu",

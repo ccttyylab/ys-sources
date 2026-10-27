@@ -12,7 +12,7 @@
 ## 一、源可用性状态
 
 <!-- STATUS_START -->
-> 🔄 最近更新：2026-10-27 15:21:59（北京时间） · 成功 **17/17** 个源
+> 🔄 最近更新：2026-10-28 03:15:28（北京时间） · 成功 **17/17** 个源
 
 | 配置源 | 状态 | 使用地址 |
 | :--- | :---: | :--- |
@@ -30,7 +30,7 @@
 | 🚀科技长青 | ✅ | <code>https://13413.kstore.vip/tv/changqing.json</code> |
 | 🚀香雅情线路 | ✅ | <code>https://ghfast.top/https://<br>raw.githubusercontent.com/xyq254245/<br>xyqonlinerule/main/XYQTVBox.json</code> |
 | 🚀荐片平台 | ✅ | <code>https://tv.203511.xyz/0821.json</code> |
-| 🚀俊哥 | 📦 缓存 | 沿用上次成功配置 |
+| 🚀俊哥 | ✅ | <code>http://home.jundie.top:81/top98.json</code> |
 | 🚀摸鱼儿 | ✅ | <code>https://6800.kstore.vip/fish.json</code> |
 | 🚀菜妮丝 | ✅ | <code>https://tv.菜妮丝.top</code> |
 <!-- STATUS_END -->
