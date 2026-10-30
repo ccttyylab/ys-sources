@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30 03:26:31",
+  "updated_at": "2026-10-30 16:07:38",
   "repo": "ccttyylab/ys-sources",
   "sources": [
     {
@@ -91,8 +91,9 @@
       "id": "xiangyaqing",
       "name": "🚀香雅情线路",
       "ok": true,
-      "used_url": "https://ghfast.top/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
-      "error": null
+      "used_url": "(缓存)",
+      "error": "UA=Mozilla/5.0: HTTPSConnectionPool(host='ghfast.top', port=443): Max retries exceeded with url: /https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json (Caused by ConnectTimeoutError(<HTTPSConnection(host='ghfast.top', port=443) at 0x742dd0705350>, 'Connection to ghfast.top timed out. (connect timeout=15)'))；UA=okhttp/3.12.0: HTTPSConnectionPool(host='ghfast.top', port=443): Max retries exceeded with url: /https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json (Caused by ConnectTimeoutError(<HTTPSConnection(host='ghfast.top', port=443) at 0x742dd06f6d50>, 'Connection to ghfast.top timed out. (connect timeout=15)'))",
+      "cached": true
     },
     {
       "id": "jianpian",
