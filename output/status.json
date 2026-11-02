@@ -1,13 +1,14 @@
 {
-  "updated_at": "2026-11-02 16:56:27",
+  "updated_at": "2026-11-03 06:37:40",
   "repo": "ccttyylab/ys-sources",
   "sources": [
     {
       "id": "feimao",
       "name": "🚀肥猫线路",
       "ok": true,
-      "used_url": "http://肥猫.net/tv",
-      "error": null
+      "used_url": "(缓存)",
+      "error": "UA=Mozilla/5.0: 401 Client Error:  for url: https://6296.kstore.vip/facat.json；UA=okhttp/3.12.0: 401 Client Error:  for url: https://6296.kstore.vip/facat.json",
+      "cached": true
     },
     {
       "id": "fantaiying",
