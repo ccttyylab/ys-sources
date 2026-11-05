@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05 04:41:55",
+  "updated_at": "2026-11-05 17:00:27",
   "repo": "ccttyylab/ys-sources",
   "sources": [
     {
@@ -43,7 +43,7 @@
       "name": "🚀欧歌",
       "ok": true,
       "used_url": "(缓存)",
-      "error": "UA=Mozilla/5.0: HTTPSConnectionPool(host='xn--dkw0c.v.nxog.top', port=443): Max retries exceeded with url: /m/ (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1016)')))；UA=okhttp/3.12.0: HTTPSConnectionPool(host='xn--dkw0c.v.nxog.top', port=443): Max retries exceeded with url: /m/ (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1016)')))",
+      "error": "UA=Mozilla/5.0: HTTPSConnectionPool(host='xn--dkw0c.v.nxog.top', port=443): Max retries exceeded with url: /m/ (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1018)')))；UA=okhttp/3.12.0: HTTPSConnectionPool(host='xn--dkw0c.v.nxog.top', port=443): Max retries exceeded with url: /m/ (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1018)')))",
       "cached": true
     },
     {
