@@ -12,7 +12,7 @@
 ## 一、源可用性状态
 
 <!-- STATUS_START -->
-> 🔄 最近更新：2026-11-07 04:16:27（北京时间） · 成功 **17/17** 个源
+> 🔄 最近更新：2026-11-07 16:23:20（北京时间） · 成功 **17/17** 个源
 
 | 配置源 | 状态 | 使用地址 |
 | :--- | :---: | :--- |
@@ -27,7 +27,7 @@
 | 🚀拾光多仓 | ✅ | <code>http://xmbjm.fh4u.org/dc.txt</code> |
 | 🚀挺好分享多仓 | ✅ | <code>http://ztha.top/TVBox/GYCK.json</code> |
 | 🚀盒子迷 | ✅ | <code>https://盒子迷.top/禁止贩卖</code> |
-| 🚀科技长青 | 📦 缓存 | 沿用上次成功配置 |
+| 🚀科技长青 | ✅ | <code>https://13413.kstore.vip/tv/changqing.json</code> |
 | 🚀香雅情线路 | ✅ | <code>https://ghfast.top/https://<br>raw.githubusercontent.com/xyq254245/<br>xyqonlinerule/main/XYQTVBox.json</code> |
 | 🚀荐片平台 | ✅ | <code>https://tv.203511.xyz/0821.json</code> |
 | 🚀俊哥 | ✅ | <code>http://home.jundie.top:81/top98.json</code> |

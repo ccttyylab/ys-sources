@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07 04:16:27",
+  "updated_at": "2026-11-07 16:23:20",
   "repo": "ccttyylab/ys-sources",
   "sources": [
     {
@@ -85,9 +85,8 @@
       "id": "kejichangqing",
       "name": "🚀科技长青",
       "ok": true,
-      "used_url": "(缓存)",
-      "error": "UA=Mozilla/5.0: 401 Client Error:  for url: https://13413.kstore.vip/tv/changqing.json；UA=okhttp/3.12.0: 401 Client Error:  for url: https://13413.kstore.vip/tv/changqing.json",
-      "cached": true
+      "used_url": "https://13413.kstore.vip/tv/changqing.json",
+      "error": null
     },
     {
       "id": "xiangyaqing",
