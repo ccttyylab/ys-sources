@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22 17:25:27",
+  "updated_at": "2026-11-23 04:37:40",
   "repo": "ccttyylab/ys-sources",
   "sources": [
     {
@@ -77,8 +77,9 @@
       "id": "hezimii",
       "name": "🚀盒子迷",
       "ok": true,
-      "used_url": "https://盒子迷.top/禁止贩卖",
-      "error": null
+      "used_url": "(缓存)",
+      "error": "UA=Mozilla/5.0: HTTPSConnectionPool(host='xn--i8sz35d1yr.top', port=443): Max retries exceeded with url: /%E7%A6%81%E6%AD%A2%E8%B4%A9%E5%8D%96 (Caused by ConnectTimeoutError(<HTTPSConnection(host='xn--i8sz35d1yr.top', port=443) at 0x7cb081682d10>, 'Connection to xn--i8sz35d1yr.top timed out. (connect timeout=15)'))；UA=okhttp/3.12.0: HTTPSConnectionPool(host='xn--i8sz35d1yr.top', port=443): Max retries exceeded with url: /%E7%A6%81%E6%AD%A2%E8%B4%A9%E5%8D%96 (Caused by ConnectTimeoutError(<HTTPSConnection(host='xn--i8sz35d1yr.top', port=443) at 0x7cb08168ee10>, 'Connection to xn--i8sz35d1yr.top timed out. (connect timeout=15)'))",
+      "cached": true
     },
     {
       "id": "kejichangqing",
