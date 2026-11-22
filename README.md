@@ -12,11 +12,11 @@
 ## 一、源可用性状态
 
 <!-- STATUS_START -->
-> 🔄 最近更新：2026-11-22 04:23:43（北京时间） · 成功 **17/17** 个源
+> 🔄 最近更新：2026-11-22 17:25:27（北京时间） · 成功 **17/17** 个源
 
 | 配置源 | 状态 | 使用地址 |
 | :--- | :---: | :--- |
-| 🚀肥猫线路 | ✅ | <code>http://肥猫.net/</code> |
+| 🚀肥猫线路 | ✅ | <code>https://6296.kstore.vip/facat.json</code> |
 | 🚀饭太硬（镜像） | ✅ | <code>http://xhztv.top/dc/饭太硬/api.json</code> |
 | 🚀王二小放牛娃 | ✅ | <code>http://new.王二小放牛娃.top</code> |
 | 🚀老刘备 | ✅ | <code>https://raw.liucn.cc/box/m.json</code> |
